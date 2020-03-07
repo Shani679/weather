@@ -25,7 +25,7 @@ export const Navbar = () => (
     <Nav>
         <h1>Weather Forecast</h1>
         <div>
-            <Link to="/">Home</Link>
+            <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
             <Link to={`${process.env.PUBLIC_URL}/favorites`}>Favorites</Link>
         </div>
     </Nav>
