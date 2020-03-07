@@ -2,6 +2,7 @@
   "name": "weather",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://shani679.github.io/weather",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
@@ -43,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0",
-    "homepage": "http://shani679.github.io/weather"
+    "gh-pages": "^2.2.0"
   }
 }
