@@ -36,8 +36,8 @@ const App = ({tooltip, toggleTooltip}) => {
       {tooltip && <Tooltip/>}
       <Navbar/>
       <Switch>
-        <Route path={`${process.env.PUBLIC_URL}/favorites`} component={Favorites}/>
-        <Route path={`${process.env.PUBLIC_URL}/:key?/:name?`} component={Home}/>
+        <Route path="/favorites" component={Favorites}/>
+        <Route path="/:key?/:name?" component={Home}/>
       </Switch>
     </View>
   );
